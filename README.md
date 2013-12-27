@@ -25,4 +25,4 @@ heroku config:add METEOR_SETTINGS='{"herp":"derp"}'
 ```
 
 
-You need to have a verified account so the buildpack can add a `mongohq:sandbox` addon.
+You need to have a verified account so the buildpack can add a `mongolabs:sandbox` addon.
