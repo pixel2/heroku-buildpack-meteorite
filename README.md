@@ -1,5 +1,7 @@
 # Heroku buildpack: Meteorite
 
+**Meteorite is no longer used as of Meteor > 1.0. There are other buildpacks that support Meteor 1.0.**
+
 This build pack allows you to easily deploy meteor apps to heroku using [meteorite](http://github.com/oortcloud/meteorite). It's easy to use different branches of meteor and any smart package you can lay your hands on.
 
 ## Usage
@@ -28,6 +30,8 @@ heroku config:add METEOR_SETTINGS='{"herp":"derp"}'
 You need to have a verified account so the buildpack can add a `mongohq:sandbox` addon.
 
 ## Websockets
+
+**Note: [websockets](https://devcenter.heroku.com/articles/websockets) are now enabled on default on Heroku.**
 
 To enable websockets on Heroku, you will need to enable the "labs" feature:
 
